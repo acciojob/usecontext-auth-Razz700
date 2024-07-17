@@ -6,8 +6,8 @@ const Auth = () => {
     console.log(var1);
   return (
     <div>
-        {!var1 && <p>you are not authenticated</p>}
-        {var1 && <p>You are now authenticated, you can proceed</p>}
+        {!var1 && <p className='authText'>you are not authenticated</p>}
+        {var1 && <p className='authText'>You are now authenticated, you can proceed</p>}
     </div>
   )
 }

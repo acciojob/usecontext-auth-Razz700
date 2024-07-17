@@ -12,7 +12,6 @@ status?setstatus(false):setstatus(true);
   return (
     <AuthContext.Provider value={status}>
  <div>
-      hello this
       <h1>Click on the checkbox to get authenticated</h1>
         <Auth/>
         <input onChange={handlechange}  id="check" type="checkbox"/>
